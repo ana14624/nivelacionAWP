@@ -2,9 +2,28 @@
 //asignar un nombre y versión al cache
 const CACHE_NAME = 'cache_electronicos',
   urlsToCache = [
-    './',
+    'index.html',
+    'cart_items.html',
     'style.css',
-    './script.js'
+    
+    'main.js',
+    'script.js',
+    'manifest.json',
+
+    'https://unpkg.com/dexie@latest/dist/dexie.js',
+
+    'cart.js',
+    'cartUI.js',
+    'connection.js',
+    'products.js',
+
+    './img/icon-192x192.png',
+    'DSLR Camera - 800x800.png',
+    'Experia Tablet - 900x610.png',
+    'img_561232.png',
+    'Mac Book - 900x709.png',
+    'Refrigerator - 800x800.png',
+    'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js.map'
     ]
 
 self.addEventListener('install', e => {
