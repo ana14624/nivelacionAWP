@@ -2,7 +2,6 @@
 //asignar un nombre y versión al cache
 const CACHE_NAME = 'cache_electronicos',
   urlsToCache = [
-    './',
     'index.html',
     'cart_items.html',
     'style.css',
@@ -15,7 +14,11 @@ const CACHE_NAME = 'cache_electronicos',
     '/js/connection.js',
     '/js/products.js',
     './img/icon-192x192.png',
-    '/assets/DSLR Camera - 800x800.png'
+    '/assets/DSLR Camera - 800x800.png',
+    '/assets/Experia Tablet - 900x610.png',
+    '/assets/img_561232.png',
+    '/assets/Mac Book - 900x709.png',
+    '/assets/Refrigerator - 800x800.png'
     ]
 
 self.addEventListener('install', e => {
