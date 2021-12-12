@@ -14,7 +14,8 @@ const CACHE_NAME = 'cache_electronicos',
     '/js/cartUI.js',
     '/js/connection.js',
     '/js/products.js',
-    './img/icon-192x192.png'
+    './img/icon-192x192.png',
+    '/assets\DSLR Camera - 800x800.png'
     ]
 
 self.addEventListener('install', e => {
