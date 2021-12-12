@@ -3,14 +3,19 @@
 const CACHE_NAME = 'cache_electronicos',
   urlsToCache = [
     './',
-    'index.html',
+     'index.html',
     'cart_items.html',
     'style.css',
     './script.js',
     'manifest.json',
     'https://unpkg.com/dexie@latest/dist/dexie.js',
-    "/js/main.js",
+    '/js/main.js',
+    '/js/cart.js',
+    '/js/cartUI.js',
+    '/js/connection.js',
+    '/js/products.js',
     './img/icon-192x192.png'
+    ]
     ]
 
 self.addEventListener('install', e => {
