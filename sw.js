@@ -18,7 +18,8 @@ const CACHE_NAME = 'cache_electronicos',
     '/assets/Experia Tablet - 900x610.png',
     '/assets/img_561232.png',
     '/assets/Mac Book - 900x709.png',
-    '/assets/Refrigerator - 800x800.png'
+    '/assets/Refrigerator - 800x800.png',
+    'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js.map'
     ]
 
 self.addEventListener('install', e => {
