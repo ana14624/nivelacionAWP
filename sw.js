@@ -5,6 +5,7 @@ const CACHE_NAME = 'cache_electronicos',
     'index.html',
     'cart_items.html',
     'style.css',
+<<<<<<< HEAD
     
     'main.js',
     'script.js',
@@ -23,6 +24,23 @@ const CACHE_NAME = 'cache_electronicos',
     'img_561232.png',
     'Mac Book - 900x709.png',
     'Refrigerator - 800x800.png',
+=======
+    'sw.js',
+    '/js/main.js',
+    './script.js',
+    'manifest.json',
+    'https://unpkg.com/dexie@latest/dist/dexie.js',
+    '/js/cart.js',
+    '/js/cartUI.js',
+    '/js/connection.js',
+    '/js/products.js',
+    './img/icon-192x192.png',
+    '/assets/DSLR Camera - 800x800.png',
+    '/assets/Experia Tablet - 900x610.png',
+    '/assets/img_561232.png',
+    '/assets/Mac Book - 900x709.png',
+    '/assets/Refrigerator - 800x800.png',
+>>>>>>> 66e3a675affa7924e141bc714c60d4df7f1743d4
     'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js.map'
     ]
 
