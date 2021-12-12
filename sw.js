@@ -15,7 +15,7 @@ const CACHE_NAME = 'cache_electronicos',
     '/js/connection.js',
     '/js/products.js',
     './img/icon-192x192.png',
-    '/assets\DSLR Camera - 800x800.png'
+    '/assets/DSLR Camera - 800x800.png'
     ]
 
 self.addEventListener('install', e => {
